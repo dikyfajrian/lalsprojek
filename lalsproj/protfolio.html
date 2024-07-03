@@ -1,0 +1,120 @@
+<!-- I have already made navigation bar so please watch part 1 of this series I am just going to copy all the code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Up With Lals</title>
+
+    <!-- adding css  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- about css  -->
+    <link rel="stylesheet" href="./css/porfolio.css">
+
+    <!-- mediaQuery css  -->
+    <link rel="stylesheet" href="./css/MediaQuery.css">
+
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/7a6c6b42a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Make Up With Lals</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./protfolio.html">Gallery</a></li>
+                <li><a href="https://www.instagram.com/makeupwithlals/" id="NavNum" target="_blank" rel="noopener noreferrer">@makeupwithlals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sectionFirst">
+        <h1>Gallery</h1>
+        <!-- transparent Img -->
+        <section class="transform-img">
+            <img src="./img/background180.svg" alt="">
+        </section>
+    </section>
+    <section class="aboutServices">
+    <div class="ser-litText">Makeup Gallery: Beauty Portraits Created by Make Up With Lals</div>
+    <p class="ser-text">This Gallery Shows Our Dedication to Creating the Perfect Makeup Look for You.</p>
+</section>
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+<!-- Lightbox2 JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+   <!-- gallery -->
+   <div class="gallery">
+    <a href="./img/sotb.jpeg" data-lightbox="gallery" data-title="Sister Of The Bride Make Up">
+        <img src="./img/sotb.jpeg" alt="Sister Of The Bride Make Up">
+    </a>
+    <a href="./img/prewed.jpeg" data-lightbox="gallery" data-title="Prewedding Make Up">
+        <img src="./img/prewed.jpeg" alt="Prewedding Make Up">
+    </a>
+    <a href="./img/grad.jpeg" data-lightbox="gallery" data-title="Graduation Make Up">
+        <img src="./img/grad.jpeg" alt="Graduation Make Up">
+    </a>
+    <a href="./img/tunangan.jpeg" data-lightbox="gallery" data-title="Engagement Makep Up">
+        <img src="./img/tunangan.jpeg" alt="Engagement Makep Up">
+    </a>
+    <a href="./img/tunangan1.jpeg" data-lightbox="gallery" data-title="Engagement Makep Up">
+        <img src="./img/tunangan1.jpeg" alt="Engagement Makep Up">
+    </a>
+    <a href="./img/after2.jpeg" data-lightbox="gallery" data-title="Mother Of The Bride Make Up">
+        <img src="./img/after2.jpeg" alt="Mother Of The Bride Make Up">
+    </a>
+</div>
+
+    <!-- before and After  -->
+    <section class="beforeAfter">
+
+        <div class="gridBox">
+            <div class="box">
+                <div class="img">
+                    <img src="./img/before1.jpeg" alt="">
+                </div>
+                <div class="text">Before</div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/after1.jpeg">
+                </div>
+                <div class="text">After</div>
+            </div>
+        </div>
+        <div class="gridBox">
+            <div class="box">
+                <div class="img">
+                    <img src="./img/before2.jpeg" alt="">
+                </div>
+                <div class="text">Before</div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/after2.jpeg">
+                </div>
+                <div class="text">After</div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- footer  -->
+    <footer>
+        <div class="fbox">Copyright &copy; 2024 Diky Fajrian</div>
+        <div class="fbox">Powered By Diky Fajrian</div>
+    </footer>
+
+
+    <!-- js  -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
